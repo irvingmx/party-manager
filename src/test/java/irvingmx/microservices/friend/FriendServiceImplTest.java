@@ -18,7 +18,6 @@ import static org.mockito.BDDMockito.*;
 class FriendServiceImplTest {
 
     private FriendServiceImpl friendService;
-
     @Mock
     private FriendRepository friendRepository;
     private List<Friend> expectedFriends;
